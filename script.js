@@ -13,13 +13,14 @@ let food = {
 }
 
 function criarBG() {
-    context.fillStyle = "Black";
+    context.fillStyle = "gray";
     context.fillRect(0, 0, 16 * box, 16 * box);
+
 }
 
 function criarCobrinha(){
     for(i=0; i < snake.length; i++){
-        context.fillStyle = "green";
+        context.fillStyle = "BLACK";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
@@ -50,6 +51,7 @@ function iniciarJogo(){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
             alert('Game Over :(');
+        
         }
     }
 

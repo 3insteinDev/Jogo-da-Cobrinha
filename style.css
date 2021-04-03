@@ -1,3 +1,20 @@
 body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 209, 119);
+    font-size: 40px;
+    background-image: url(/unnamed.jpg) ;
+    
 }
+
+
+}
+head {
+    background-color: violet;
+}
+
