@@ -5,10 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(255, 255, 255);
+    color: rgb(173, 45, 45);
     background-color: rgb(29, 209, 119);
     font-size: 40px;
-    background-image: url(/fundo.jpg) ;
+    background-image: url(/familia.jpg) ;
     
 }
 
